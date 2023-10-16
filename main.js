@@ -15,16 +15,17 @@ fetch(
     const USDANG = document.querySelector(".USDANG");
     const USDAOA = document.querySelector(".USDAOA");
     const USDARS = document.querySelector(".USDARS");
-    const USDAUD = document.querySelector(".USDAED");
-    const USDAWG = document.querySelector(".USDAED");
+    const USDAUD = document.querySelector(".USDAUD");
+    const USDAWG = document.querySelector(".USDAWG");
 
-    USDAED.textContent = curr.USDAED;
-    USDAED.textContent = curr.USDAED;
-    USDAED.textContent = curr.USDAED;
-    USDAED.textContent = curr.USDAED;
-    USDAED.textContent = curr.USDAED;
-    USDAED.textContent = curr.USDAED;
-    USDAED.textContent = curr.USDAED;
+    USDAFN.textContent = curr.USDAFN;
+    USDALL.textContent = curr.USDALL;
+    USDAMD.textContent = curr.USDAMD;
+    USDANG.textContent = curr.USDANG;
+    USDAOA.textContent = curr.USDAOA;
+    USDARS.textContent = curr.USDARS;
+    USDAUD.textContent = curr.USDAUD;
+    USDAWG.textContent = curr.USDAWG;
     USDAED.textContent = curr.USDAED;
   });
 //   .catch((error) => {
